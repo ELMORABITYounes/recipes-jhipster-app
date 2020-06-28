@@ -1,4 +1,4 @@
-# recipes
+# Recipes Management demo app with jhipster 6
 
 This application was generated using JHipster 6.10.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.10.0](https://www.jhipster.tech/documentation-archive/v6.10.0).
 

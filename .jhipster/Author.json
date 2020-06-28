@@ -1,0 +1,32 @@
+{
+  "name": "Author",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "website",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "recipe",
+      "otherEntityRelationshipName": "author",
+      "relationshipName": "recipes"
+    }
+  ],
+  "changelogDate": "20200628211440",
+  "entityTableName": "author",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

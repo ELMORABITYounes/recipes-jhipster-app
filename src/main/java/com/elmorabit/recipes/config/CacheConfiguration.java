@@ -48,6 +48,11 @@ public class CacheConfiguration {
             createCache(cm, com.elmorabit.recipes.domain.User.class.getName());
             createCache(cm, com.elmorabit.recipes.domain.Authority.class.getName());
             createCache(cm, com.elmorabit.recipes.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.elmorabit.recipes.domain.Recipe.class.getName());
+            createCache(cm, com.elmorabit.recipes.domain.Recipe.class.getName() + ".ingredients");
+            createCache(cm, com.elmorabit.recipes.domain.Ingredient.class.getName());
+            createCache(cm, com.elmorabit.recipes.domain.Author.class.getName());
+            createCache(cm, com.elmorabit.recipes.domain.Author.class.getName() + ".recipes");
             // jhipster-needle-ehcache-add-entry
         };
     }

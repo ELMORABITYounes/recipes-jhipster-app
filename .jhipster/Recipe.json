@@ -1,0 +1,43 @@
+{
+  "name": "Recipe",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "ingredient",
+      "otherEntityRelationshipName": "recipe",
+      "relationshipName": "ingredients"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "author",
+      "otherEntityRelationshipName": "recipes",
+      "relationshipName": "author",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200628211240",
+  "entityTableName": "recipe",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

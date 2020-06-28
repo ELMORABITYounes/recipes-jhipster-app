@@ -1,0 +1,25 @@
+entity Recipe {
+	title String,
+    image String,
+    description String
+}
+
+entity Ingredient {
+	quantity Integer,
+    unit String,
+    name String
+}
+
+entity Author {
+	name String,
+	website String
+}
+
+relationship OneToMany {
+	Author{recipes} to Recipe{author},
+	Recipe{ingredients} to Ingredient{recipe}
+}
+
+paginate Recipe with pagination
+
+service all with serviceImpl
