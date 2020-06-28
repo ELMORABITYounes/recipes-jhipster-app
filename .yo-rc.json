@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.elmorabit.recipes"
+    },
+    "jhipsterVersion": "6.10.0",
+    "applicationType": "monolith",
+    "baseName": "recipes",
+    "packageName": "com.elmorabit.recipes",
+    "packageFolder": "com/elmorabit/recipes",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NmNjYjUzZWIwMWVkNTc2ODI0Y2EzNWQyMTFmNDVmZmU3YzkzYTZiY2Y4OWNmYTQyOWUzZThjNzg3NWEwZjU2NWE2NWUyMzZmN2M4NzhjN2IxM2FjMTZmNWQzYTU0NzYyNWI1Y2M5YzQ1ZjdmN2FjMDllMzM1MjBhNDY4MTk2YTc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1593370645686,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
